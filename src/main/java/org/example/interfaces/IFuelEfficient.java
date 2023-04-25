@@ -1,6 +1,6 @@
-package org.example;
+package org.example.interfaces;
 
-interface FuelEfficient {
+public interface IFuelEfficient {
     double getFuelEfficiency();
     void setFuelEfficiency(double fuelEfficiency);
 }

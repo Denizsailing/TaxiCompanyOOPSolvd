@@ -1,6 +1,8 @@
 package org.example;
 
-class ElectricTaxi extends TaxiCar implements EnvironmentFriendly {
+import org.example.interfaces.IEnvironmentFriendly;
+
+class ElectricTaxi extends TaxiCar implements IEnvironmentFriendly {
     private String ecoCertification;
 
     public ElectricTaxi(String model, int passengers, double fare, String ecoCertification) {

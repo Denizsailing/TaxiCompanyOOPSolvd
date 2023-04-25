@@ -1,6 +1,8 @@
 package org.example;
 
-class LuxuryTaxi extends TaxiCar implements PremiumService {
+import org.example.interfaces.IPremiumService;
+
+class LuxuryTaxi extends TaxiCar implements IPremiumService {
     private String premiumService;
 
     public LuxuryTaxi(String model, int passengers, double fare, String premiumService) {

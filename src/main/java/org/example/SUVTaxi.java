@@ -1,6 +1,8 @@
 package org.example;
 
-class SUVTaxi extends TaxiCar implements FamilyFriendly {
+import org.example.interfaces.IFamilyFriendly;
+
+class SUVTaxi extends TaxiCar implements IFamilyFriendly {
     private int maxChildSeats;
 
     public SUVTaxi(String model, int passengers, double fare, int maxChildSeats) {

@@ -1,6 +1,8 @@
 package org.example;
 
-abstract class PersonCustomer implements CustomerActions {
+import org.example.interfaces.ICustomerActions;
+
+abstract class PersonCustomer implements ICustomerActions {
     protected String name;
     protected String email;
     protected String info;

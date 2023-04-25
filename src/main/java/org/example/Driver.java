@@ -1,6 +1,8 @@
 package org.example;
 
-class Driver extends Person implements Worker {
+import org.example.interfaces.IWorker;
+
+class Driver extends Person implements IWorker {
     private double hourlyRate;
 
     public Driver(String name, int age, double hourlyRate) {

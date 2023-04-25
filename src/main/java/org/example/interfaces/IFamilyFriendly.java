@@ -1,6 +1,6 @@
-package org.example;
+package org.example.interfaces;
 
-interface FamilyFriendly {
+public interface IFamilyFriendly {
     int getMaxChildSeats();
     void setMaxChildSeats(int maxChildSeats);
 }

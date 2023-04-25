@@ -1,6 +1,8 @@
 package org.example;
 
-class CompactTaxi extends TaxiCar implements FuelEfficient {
+import org.example.interfaces.IFuelEfficient;
+
+class CompactTaxi extends TaxiCar implements IFuelEfficient {
     private double fuelEfficiency;
 
     public CompactTaxi(String model, int passengers, double fare, double fuelEfficiency) {

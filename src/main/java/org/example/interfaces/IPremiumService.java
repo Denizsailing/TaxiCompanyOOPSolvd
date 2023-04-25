@@ -1,6 +1,6 @@
-package org.example;
+package org.example.interfaces;
 
-interface PremiumService {
+public interface IPremiumService {
     String getPremiumService();
     void setPremiumService(String premiumService);
 }

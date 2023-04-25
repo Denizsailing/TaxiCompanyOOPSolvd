@@ -1,6 +1,6 @@
-package org.example;
+package org.example.interfaces;
 
-interface WheelchairAccessible {
+public interface IWheelchairAccessible {
     boolean isWheelchairAccessible();
     void setWheelchairAccessible(boolean wheelchairAccessible);
 }

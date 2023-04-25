@@ -1,6 +1,6 @@
-package org.example;
+package org.example.interfaces;
 
-interface EnvironmentFriendly {
+public interface IEnvironmentFriendly {
     String getEcoCertification();
     void setEcoCertification(String ecoCertification);
 }

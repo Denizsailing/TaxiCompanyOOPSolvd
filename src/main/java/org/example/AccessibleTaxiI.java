@@ -1,9 +1,11 @@
 package org.example;
 
-final class AccessibleTaxi extends TaxiCar implements WheelchairAccessible {
+import org.example.interfaces.IWheelchairAccessible;
+
+final class AccessibleTaxiI extends TaxiCar implements IWheelchairAccessible {
     private boolean wheelchairAccessible;
 
-    public AccessibleTaxi(String model, int passengers, double fare, boolean wheelchairAccessible) {
+    public AccessibleTaxiI(String model, int passengers, double fare, boolean wheelchairAccessible) {
         super(model, passengers, fare);
         this.wheelchairAccessible = wheelchairAccessible;
     }

@@ -1,6 +1,8 @@
 package org.example;
 
-class CustomerSupport extends Person implements Worker {
+import org.example.interfaces.IWorker;
+
+class CustomerSupport extends Person implements IWorker {
     private double hourlyRate;
 
     public CustomerSupport(String name, int age, double hourlyRate) {

@@ -1,9 +1,11 @@
 package org.example;
 
-class FinancialWorker extends Person implements Worker {
+import org.example.interfaces.IWorker;
+
+class FinancialIWorker extends Person implements IWorker {
     private double yearlySalary;
 
-    public FinancialWorker(String name, int age, double yearlySalary) {
+    public FinancialIWorker(String name, int age, double yearlySalary) {
         super(name, age);
         this.yearlySalary = yearlySalary;
     }

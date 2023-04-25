@@ -1,6 +1,6 @@
-package org.example;
+package org.example.interfaces;
 
-interface CustomerActions {
+public interface ICustomerActions {
     void addInfo(String info);
     void updateInfo(String info);
     void printInfo();

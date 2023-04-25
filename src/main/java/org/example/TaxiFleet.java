@@ -1,5 +1,4 @@
 package org.example;
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -12,7 +11,7 @@ public class TaxiFleet {
         LuxuryTaxi luxuryTaxi = new LuxuryTaxi("Mercedes s ", 4, BASE_FARE, "Champagne Service");
         ElectricTaxi electricTaxi = new ElectricTaxi("Tesla Model x ", 4, BASE_FARE, "Eco-Certified");
         MinivanTaxi minivanTaxi = new MinivanTaxi("ww jetta", 6, BASE_FARE, 3);
-        AccessibleTaxi accessibleTaxi = new AccessibleTaxi("Ford Transit", 6, BASE_FARE, true);
+        AccessibleTaxiI accessibleTaxi = new AccessibleTaxiI("Ford Transit", 6, BASE_FARE, true);
         BoatTaxi boatTaxi = new BoatTaxi("tesla model y ", 8, BASE_FARE, "Eco-Certified");
         SUVTaxi suvTaxi = new SUVTaxi("Range Rover", 5, BASE_FARE, 2);
         BusTaxi busTaxi = new BusTaxi("Mercedes Sprinter", 20, BASE_FARE);
