@@ -1,12 +1,17 @@
 package org.example;
+import java.util.ArrayList;
+import java.util.List;
+import org.example.Exception.*;
 
-abstract class Person {
+
+
+public abstract class Person {
     protected String name;
     protected int age;
 
-    public Person(String name, int age) {
+    public Person(String name, int age) throws InvalidAgeException {
         this.name = name;
-        this.age = age;
+        this.setAge(age);
     }
 
     public String getName() {
@@ -21,8 +26,12 @@ abstract class Person {
         return age;
     }
 
-    public void setAge(int age) {
-        this.age = age;
+    public void setAge(int age) throws InvalidAgeException {
+        if (age >= 0 && age <= 120) {
+            this.age = age;
+        } else {
+            throw new InvalidAgeException("Age must be between 0 and 120");
+        }
     }
 
     @Override

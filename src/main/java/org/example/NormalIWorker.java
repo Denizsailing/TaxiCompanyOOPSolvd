@@ -1,11 +1,11 @@
 package org.example;
 
 import org.example.interfaces.IWorker;
-
+import org.example.Exception.*;
 class NormalIWorker extends Person implements IWorker {
     private double hourlyRate;
 
-    public NormalIWorker(String name, int age, double hourlyRate) {
+    public NormalIWorker(String name, int age, double hourlyRate) throws InvalidAgeException {
         super(name, age);
         this.hourlyRate = hourlyRate;
     }

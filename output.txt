@@ -1,0 +1,4 @@
+Name: deniz, Age: 25
+Name: gunduz, Age: 35
+Name: justyna, Age: 24
+Name: john, Age: 40

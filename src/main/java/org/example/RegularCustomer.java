@@ -11,4 +11,9 @@ class RegularCustomer extends PersonCustomer {
     protected double getDiscount() {
         return DISCOUNT_RATE;
     }
+
+    @Override
+    public void handleCustomerRequest() {
+        System.out.println("RegularCustomer " + name + " is handling a customer request.");
+    }
 }

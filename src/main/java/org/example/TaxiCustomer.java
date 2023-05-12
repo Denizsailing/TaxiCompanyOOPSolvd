@@ -11,4 +11,8 @@ class TaxiCustomer extends PersonCustomer {
     protected double getDiscount() {
         return DISCOUNT_RATE;
     }
+    @Override
+    public void handleCustomerRequest() {
+        System.out.println("TaxiCustomer " + name + " is handling a customer request.");
+    }
 }

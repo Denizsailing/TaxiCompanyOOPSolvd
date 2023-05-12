@@ -1,0 +1,9 @@
+2023-05-08 14:28:59.219 [main] ERROR org.example.MainPerson - An exception occurred: 
+org.example.Exception.InvalidAgeException: Age must be between 0 and 120
+	at org.example.Person.setAge(Person.java:33) ~[classes/:?]
+	at org.example.Person.<init>(Person.java:14) ~[classes/:?]
+	at org.example.Employee.<init>(Employee.java:7) ~[classes/:?]
+	at org.example.MainPerson.main(MainPerson.java:21) [classes/:?]
+2023-05-08 14:30:45.949 [main] ERROR org.example.MainPerson - An exception occurred: 
+org.example.Exception.InvalidHourlyRateException: Invalid hourly rate
+	at org.example.MainPerson.main(MainPerson.java:34) [classes/:?]
