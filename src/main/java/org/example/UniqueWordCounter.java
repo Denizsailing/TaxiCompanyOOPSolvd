@@ -13,7 +13,7 @@ public class UniqueWordCounter {
         String outputFilePath = "C:\\Users\\deniz\\OneDrive\\Masaüstü\\uniquewords.txt";
 
         try {
-            //  Read the text from the file
+            //  Read the text from  file
             String text = new String(Files.readAllBytes(Paths.get(inputFilePath)));
 
             //  Split the text into words
@@ -22,7 +22,7 @@ public class UniqueWordCounter {
             // Create a Set to store unique words
             Set<String> uniqueWords = new HashSet<>();
 
-            //  Iterate over words and add them to the set
+            //  Iterate over words and add them to  set
             for (String word : words) {
                 uniqueWords.add(word);
             }

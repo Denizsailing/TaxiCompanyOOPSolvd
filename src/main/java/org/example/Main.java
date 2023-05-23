@@ -99,7 +99,7 @@ public class Main {
             System.out.println("  Modifiers: " + Modifier.toString(constructor.getModifiers()));
         }
 
-        // Methods
+        // Method
         Method[] methods = clazz.getDeclaredMethods();
         System.out.println("Methods:");
         for (Method method : methods) {
